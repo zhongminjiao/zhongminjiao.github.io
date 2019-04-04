@@ -94,15 +94,6 @@
         </a>
     </li>
     
-    <li class="hide-on-med-and-down">
-        <a href="/friends" class="waves-effect waves-light">
-            
-            <i class="fa fa-address-book"></i>
-            
-            <span>友情链接</span>
-        </a>
-    </li>
-    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -173,15 +164,6 @@
             </a>
         </li>
         
-        <li>
-            <a href="/friends" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-address-book"></i>
-                
-                友情链接
-            </a>
-        </li>
-        
         
     </ul>
 </div>
@@ -193,419 +175,309 @@
 
 </header>
 
-
-
-
-
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <div class="description center-align post-title">
-                        about
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<main class="post-container content">
-
-    
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        margin: 35px 0 15px 0;
-        padding-left: 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 20px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
+<style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
     }
 </style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
-<div id="artDetail">
-    <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                </div>
-            </div>
 
-            <div class="post-info">
-                <div class="post-date info-break-policy">
-                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-03-27
-                </div>
-
+<div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
                 
-                    
-                    <div class="info-break-policy">
-                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        542
-                    </div>
-                    
-
-                    
-                    <div class="info-break-policy">
-                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        1 分
-                    </div>
-                    
+                    May · 独立博客
                 
-				
-				
-                    <div id="busuanzi_container_page_pv" class="info-break-policy">
-                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
-                        <span id="busuanzi_value_page_pv"></span>
-                    </div>
-				
             </div>
-        </div>
-        <hr class="clearfix">
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <h5 id="欢迎来到我的小站！"><a href="#欢迎来到我的小站！" class="headerlink" title="欢迎来到我的小站！"></a>欢迎来到我的小站！</h5><p>-</p>
-<p>建立这个网站想把自己的一些项目与经验定期总结与分享，希望通过我的点滴分享能使互联网世界更加精彩，同时也鞭策自己保持一颗学习的心。</p>
-<h5 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h5><p>-<br>我是一个90后妹子，2012年艺术设计毕业，毕业后就从事了设计方面的工作，因为喜欢设计，对这个行业感兴趣，所以坚持自己的选择，一直走到现在，从平面到网页设计再到UI设计，目前从事UI设计工作。主要包括：移动端，PC端，，H5页面，SaaS系统，公众号等UI页面，完成从交互原型到UI界面的设计。</p>
-<p>-<br>同时对用户体验、交互有较深的了解与认识，工作中也负责前期的竞品分析，视觉用户研究，用户体验优化，整体信息架构的梳理，交互原型输出，进行可用性测试，跟进开发落地，收集数据分析等。</p>
-<h5 id="掌握的技能"><a href="#掌握的技能" class="headerlink" title="掌握的技能"></a>掌握的技能</h5><p>-</p>
-<p>多年的时间积累与经验沉淀，使用自己综合能力慢慢得到提升，学会了工作中必备的不同技能，比如：画不同风格的插画，流行的2.5D插画，IP形象的设计，logo设计与 VI 的延展，因为看到立体的效果运用到设计中非常吸引眼球，所以特地去学了3D建模和渲染，掌握了3D的设计风格，有时候回头看，庆幸自己没有浪费掉那些时间。</p>
-<h5 id="我的业余爱好"><a href="#我的业余爱好" class="headerlink" title="我的业余爱好"></a>我的业余爱好</h5><p>-</p>
-<p>有空的时间喜欢报一些培训班来提升自己的专业技能，平常喜欢画画，每周至少会打卡一份自己的插画作品，特别喜欢到处去走走看看，不同的地方旅行，感受不同的生活与文化气息，喜欢看书，看电影，摄影等。</p>
-<p>-</p>
-<p>生活在一线城市，生活节奏飞快，感觉时间一下就过了，趁着现在的时间，年轻的自己，好好努力吧！</p>
-<p>相信越努力越幸运！</p>
 
-            </div>
-            <hr>
-
-            
-
-            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-
-<div id="article-share">
-    
-    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
-    
-</div>
-
-<script src="/libs/share/js/social-share.min.js"></script>
-
-            <div class="reprint">
-                <p>
-                    <span class="reprint-tip">
-                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
-                    </span>
-                    <a href="http://yoursite.com" class="b-link-green">May's Blog</a>
-                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/about/index.html" class="b-link-green">about</a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-    <div class="livere-card card" data-aos="fade-up">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" class="card-content" data-id="city" data-uid="MTAyMC80MzM2Ni8xOTkwNw==">
-        <script type="text/javascript">
-            (function (d, s) {
-                let j, e = d.getElementsByTagName(s)[0];
-                if (typeof LivereTower === 'function') {
-                    return;
-                }
-
-                j = d.createElement(s);
-                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                j.async = true;
-
-                e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-        </script>
-        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
-    </div>
-    <!-- City版安装代码已完成 -->
-</div>
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
-            <div class="card">
-                <a href="/about/index.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
-                        
-                        <span class="card-title">about</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">欢迎来到我的小站！-
-建立这个网站想把自己的一些项目与经验定期总结与分享，希望通过我的点滴分享能使互联网世界更加精彩，同时也鞭策自己保持一颗学习的心。
-关于我-我是一个90后妹子，2012年艺术设计毕业，毕业后就从事了设计方面的工作，因为喜</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-27
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            May
-                            
-                        </span>
-                    </div>
-                </div>
-
+            <div class="description center-align">
+                
+                    欢迎来到我的小站
                 
             </div>
         </div>
-        
-        
-        <div class="article col s12 m6 overflow-policy" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
-            </div>
-            <div class="card">
-                <a href="/about/index.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="about">
-                        
-                        <span class="card-title">about</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary">欢迎来到我的小站！-
-建立这个网站想把自己的一些项目与经验定期总结与分享，希望通过我的点滴分享能使互联网世界更加精彩，同时也鞭策自己保持一颗学习的心。
-关于我-我是一个90后妹子，2012年艺术设计毕业，毕业后就从事了设计方面的工作，因为喜</div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-03-27
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-user fa-fw"></i>
-                            May
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-            </div>
-        </div>
-        
-    </div>
-</article>
-</div>
-
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget">
-            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
     </div>
 </div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fa fa-list"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
 <script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            // headingsOffset: -205,
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).slideUp(500);
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).slideDown(500);
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
+// 每天切换 banner 图.  Switch banner image every day.
+$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
+    </div>
+</div>
+
+<main class="content">
+
+    <div id="aboutme" class="container about-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
+                        
+<div class="statis">
+    <span class="count"><a href="/" target="_blank">12</a></span>
+    <span class="name">文章</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">7</a></span>
+    <span class="name">分类</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">9</a></span>
+    <span class="name">标签</span>
+</div>
+
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="profile center-align">
+                            <div class="avatar">
+                                <img src="/medias/avatar.jpg" alt="May" class="circle responsive-img avatar-img">
+                            </div>
+                            <div class="author">
+                                <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
+                                    
+<div class="statis">
+    <span class="count"><a href="/" target="_blank">12</a></span>
+    <span class="name">文章</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/categories" target="_blank">7</a></span>
+    <span class="name">分类</span>
+</div>
+
+
+
+<div class="statis">
+    <span class="count"><a href="/tags" target="_blank">9</a></span>
+    <span class="name">标签</span>
+</div>
+
+                                </div>
+                                <div class="title">May</div>
+                                <div class="career">UI/UX 设计师</div>
+                                <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
+                                    
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=676430193" class="tooltipped" data-tooltip="QQ联系我: 676430193" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
+                        <div class="social-link">
+                            
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=676430193" class="tooltipped" data-tooltip="QQ联系我: 676430193" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="introduction center-align" data-aos="fade-up">我是一个90后妹子，2012年艺术设计毕业，毕业后就从事了设计方面的工作，因为喜欢设计，对这个行业感兴趣，所以坚持自己的选择，从平面到网页设计再到UI设计，目前从事UI设计工作。主要包括：移动端，PC端，H5页面，SaaS系统，公众号等UI页面，完成从交互原型到UI界面的设计。</div>
+
+                <style type="text/css">
+    #posts-chart,
+    #categories-chart,
+    #tags-chart {
+        width: 100%;
+        height: 300px;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+    }
+</style>
+
+<div id="postCharts" class="post-charts">
+    <div class="title center-align" data-aos="zoom-in-up">
+        <i class="fa fa-bar-chart"></i>&nbsp;&nbsp;文章统计图
+    </div>
+    <div class="row">
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="posts-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="categories-chart"></div>
+        </div>
+
+        <div class="chart col s12 m6 l4" data-aos="zoom-in-up">
+            <div id="tags-chart"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
+<script>
+    let postsChart = echarts.init(document.getElementById('posts-chart'));
+    let categoriesChart = echarts.init(document.getElementById('categories-chart'));
+    let tagsChart = echarts.init(document.getElementById('tags-chart'));
+
     
 
+    let postsOption = {
+        title: {
+            text: '文章发布统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'axis'
+        },
+        xAxis: {
+            type: 'category',
+            data: ["2018-04","2018-05","2018-06","2018-07","2018-08","2018-09","2018-10","2018-11","2018-12","2019-01","2019-02","2019-03","2019-04"]
+        },
+        yAxis: {
+            type: 'value',
+        },
+        series: [
+            {
+                name: '文章篇数',
+                type: 'line',
+                color: ['#6772e5'],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                markPoint: {
+                    symbolSize: 45,
+                    color: ['#fa755a','#3ecf8e','#82d3f4'],
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }]
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    
+
+    let categoriesOption = {
+        title: {
+            text: '文章分类统计图',
+            top: -4,
+            x: 'center'
+        },
+        tooltip: {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        series: [
+            {
+                name: '分类',
+                type: 'pie',
+                radius: '50%',
+                color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
+                data: [{"name":"web","value":1},{"name":"作品集","value":1},{"name":"3D建模","value":1},{"name":"ICON","value":3},{"name":"Logo","value":2},{"name":"app","value":3},{"name":"Web+app","value":1}],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    
+
+    let tagsOption = {
+        title: {
+            text: 'TOP10 标签统计图',
+            top: -5,
+            x: 'center'
+        },
+        tooltip: {},
+        xAxis: [
+            {
+                type: 'category',
+                data: ["app","ICON","Logo","web","作品集","C4D","3D建模 渲染","Web","后台系统"]
+            }
+        ],
+        yAxis: [
+            {
+                type: 'value'
+            }
+        ],
+        series: [
+            {
+                type: 'bar',
+                color: ['#82d3f4'],
+                barWidth : 18,
+                data: [4,3,2,1,1,1,1,1,1],
+                markPoint: {
+                    symbolSize: 45,
+                    data: [{
+                        type: 'max',
+                        itemStyle: {color: ['#3ecf8e']},
+                        name: '最大值'
+                    }, {
+                        type: 'min',
+                        itemStyle: {color: ['#fa755a']},
+                        name: '最小值'
+                    }],
+                },
+                markLine: {
+                    itemStyle: {color: ['#ab47bc']},
+                    data: [
+                        {type: 'average', name: '平均值'}
+                    ]
+                }
+            }
+        ]
+    };
+
+    // render the charts
+    postsChart.setOption(postsOption);
+    categoriesChart.setOption(categoriesOption);
+    tagsChart.setOption(tagsOption);
+</script>
+
+                
+
+                
+
+                
+
+            </div>
+        </div>
+    </div>
 </main>
-
-
 <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
@@ -632,6 +504,10 @@
 
 
 
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=676430193" class="tooltipped" data-tooltip="QQ联系我: 676430193" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
 
 
 </div>

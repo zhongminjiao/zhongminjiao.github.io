@@ -98,15 +98,6 @@
         </a>
     </li>
     
-    <li class="hide-on-med-and-down">
-        <a href="/friends" class="waves-effect waves-light">
-            
-            <i class="fa fa-address-book"></i>
-            
-            <span>友情链接</span>
-        </a>
-    </li>
-    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -174,15 +165,6 @@
                 <i class="fa fa-fw fa-user-circle-o"></i>
                 
                 关于
-            </a>
-        </li>
-        
-        <li>
-            <a href="/friends" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-address-book"></i>
-                
-                友情链接
             </a>
         </li>
         
@@ -292,6 +274,130 @@
             <hr>
 
             
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+            
 
             <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 
@@ -357,27 +463,30 @@
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/04/02/插画/">
+                <a href="/2019/04/03/后台系统-钱包小程序/">
                     <div class="card-image">
                         
-                        <img src="/images/chahua.jpg" class="responsive-img" alt="插画">
+                        <img src="http://ppdz6dt16.bkt.clouddn.com/static/images/LUCKY-pay%20%E5%9B%BE.jpg" class="responsive-img" alt="后台系统+钱包小程序">
                         
-                        <span class="card-title">插画</span>
+                        <span class="card-title">后台系统+钱包小程序</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">人物插画加进喱喱别墅 椅棒喝klfkdfkdl;kfdl;kfl;dkfldkfldkfpekfope
+                    <div class="summary">后台系统+钱包小程序 UI-
+   toB类的产品，储值卡后台管理系统，前台对接小程序，前后端数据一体，方便企业管理全国门店的业绩，营销活动的安排，打通线上线下一体，增加顾客的回购率。  -
+        
+…………
 </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-02
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-04-03
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/插画/" class="post-category" target="_blank">
-                                    插画
+                            <a href="/categories/Web-app/" class="post-category" target="_blank">
+                                    Web+app
                                 </a>
                             
                             
@@ -387,8 +496,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/人物插画/" target="_blank">
-                        <span class="chip bg-color">人物插画</span>
+                    <a href="/tags/app/" target="_blank">
+                        <span class="chip bg-color">app</span>
+                    </a>
+                    
+                    <a href="/tags/Web/" target="_blank">
+                        <span class="chip bg-color">Web</span>
+                    </a>
+                    
+                    <a href="/tags/后台系统/" target="_blank">
+                        <span class="chip bg-color">后台系统</span>
                     </a>
                     
                 </div>
@@ -479,6 +596,10 @@
 
 
 
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=676430193" class="tooltipped" data-tooltip="QQ联系我: 676430193" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
 
 
 </div>
