@@ -5,7 +5,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <meta name="keywords" content="智能家居, May&#39;s Blog">
-    <meta name="description" content="智能家居app UI-
+    <meta name="description" content="智能家居 App UI-
 智能家居轻松连接家里的智能设备，回家一键开启，离家手机上关闭。可针对自己的习惯设置各种模式，智能化生活，贴心的智慧的生活管家。-       
 …………
 ">
@@ -210,8 +210,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/app/" target="_blank">
-                                <span class="chip bg-color">app</span>
+                            <a href="/tags/App/" target="_blank">
+                                <span class="chip bg-color">App</span>
                             </a>
                         
                     </div>
@@ -222,8 +222,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/app/" class="post-category" target="_blank">
-                                app
+                            <a href="/categories/App/" class="post-category" target="_blank">
+                                App
                             </a>
                         
                     </div>
@@ -264,7 +264,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="智能家居app-UI"><a href="#智能家居app-UI" class="headerlink" title="智能家居app UI"></a>智能家居app UI</h2><p>-</p>
+                <h2 id="智能家居-App-UI"><a href="#智能家居-App-UI" class="headerlink" title="智能家居 App UI"></a>智能家居 App UI</h2><p>-</p>
 <p>智能家居轻松连接家里的智能设备，回家一键开启，离家手机上关闭。可针对自己的习惯设置各种模式，智能化生活，贴心的智慧的生活管家。<br>-<br>  <img src="http://ppdz6dt16.bkt.clouddn.com/static/images/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%8501.jpg" alt><br>   <img src="http://ppdz6dt16.bkt.clouddn.com/static/images/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%8502.jpg" alt><br><img src="http://ppdz6dt16.bkt.clouddn.com/static/images/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%853.jpg" alt><br>  <img src="http://ppdz6dt16.bkt.clouddn.com/static/images/%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%8504.jpg" alt="智能家居app UI"></p>
 <p>…………</p>
 
@@ -470,7 +470,7 @@
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">未来社区app UI  -
+                    <div class="summary">未来社区 App UI  -
    为用户提供方便、通过该应用可以享受连接物业服务、一键开小区门、连接家中智能产品、查看周边生活服务等社区生活服务。  -
                
 …………
@@ -483,8 +483,8 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/app/" class="post-category" target="_blank">
-                                    app
+                            <a href="/categories/App/" class="post-category" target="_blank">
+                                    App
                                 </a>
                             
                             
@@ -494,8 +494,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/app/" target="_blank">
-                        <span class="chip bg-color">app</span>
+                    <a href="/tags/App/" target="_blank">
+                        <span class="chip bg-color">App</span>
                     </a>
                     
                 </div>
@@ -518,7 +518,7 @@
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Xpet 宠物喂食app UI-
+                    <div class="summary">Xpet 宠物喂食 App UI-
    一款集成宠物陪伴，宠物喂食，宠物看护，视频音频互动，信息记录与分析于一体的宠物生活智能喂食机器人。  -
        
 …………
@@ -531,8 +531,8 @@
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/app/" class="post-category" target="_blank">
-                                    app
+                            <a href="/categories/App/" class="post-category" target="_blank">
+                                    App
                                 </a>
                             
                             
@@ -542,8 +542,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/app/" target="_blank">
-                        <span class="chip bg-color">app</span>
+                    <a href="/tags/App/" target="_blank">
+                        <span class="chip bg-color">App</span>
                     </a>
                     
                 </div>
@@ -555,6 +555,43 @@
 </article>
 </div>
 
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: May's Blog<br />'
+            + '作者: May<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
 
     
 
